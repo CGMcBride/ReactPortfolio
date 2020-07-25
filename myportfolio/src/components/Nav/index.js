@@ -33,12 +33,12 @@ export default function Navbarsection(props) {
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink className="textColor" href="#">
+							<NavLink className="textColor" href="/portfolio">
 								Portfolio
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink className="textColor" href="#">
+							<NavLink className="textColor" href="/contact">
 								Contact
 							</NavLink>
 						</NavItem>
@@ -61,7 +61,16 @@ export default function Navbarsection(props) {
                         </UncontrolledDropdown> */}
 					</Nav>
 					<NavbarText>
-						<a href="mailto:connermcbride@ymail.com">connermcbride@ymail.com</a>
+						{/* <a href="mailto:connermcbride@ymail.com">connermcbride@ymail.com</a> */}
+						<div className="socialIcons">
+							<a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+								target="_blank" rel="noopener noreferrer">
+								<i className="fab fa-linkedin fa-3x pr-2"></i>
+							</a>
+							<a href="https://github.com/CGMcBride" target="_blank" rel="noopener noreferrer">
+								<i className="fab fa-github fa-3x"></i>
+							</a>
+						</div>
 					</NavbarText>
 				</Collapse>
 			</Navbar>

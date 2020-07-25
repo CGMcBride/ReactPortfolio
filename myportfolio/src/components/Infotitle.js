@@ -1,10 +1,10 @@
 import React from 'react'
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
 
 export default function Infotitle(props) {
     return (
         <div>
-            <Jumbotron>
+            <Jumbotron className="bg-transparent container">
                 <h1 className="display-4">{props.title}</h1>
                 <hr className="my-2" />
                 <p className="lead">{props.text}</p>
