@@ -106,6 +106,19 @@ export default function index() {
                     </div>
                     {/* End Portfolio Item */}
 
+                    {/* New Portfolio Item */}
+                    <div className="col-lg-4 col-md-6 col-sm-12 pb-4">
+                        <Framework
+                            image="./images/portfolio/cavePexels.jpg"
+                            title="Code Cave"
+                            text="My second project to create a social app for current coding bootcamp students and alumni."
+                            tools="React.js, React Bootstrap, Sequelize, MySQL, Heroku, Express, Node.js"
+                            github="https://github.com/Group-5-Project-2/CodeCave"
+                            website="https://codecave.herokuapp.com/"
+                        />
+                    </div>
+                    {/* End Portfolio Item */}
+
                 </div>
 
             </div>
