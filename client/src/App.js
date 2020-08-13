@@ -7,11 +7,13 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Particles from 'react-particles-js';
 
 function App(props) {
   return (
     <div className="App">
       <Nav />
+      <Particles />
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
