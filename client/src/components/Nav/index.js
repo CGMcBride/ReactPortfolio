@@ -63,7 +63,7 @@ export default function Navbarsection(props) {
 					<NavbarText>
 						{/* <a href="mailto:connermcbride@ymail.com">connermcbride@ymail.com</a> */}
 						<div className="socialIcons">
-							<a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+							<a href="https://www.linkedin.com/in/conner-mcbride/"
 								target="_blank" rel="noopener noreferrer">
 								<i className="fab fa-linkedin fa-3x pr-2"></i>
 							</a>
