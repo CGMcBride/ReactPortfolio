@@ -118,6 +118,30 @@ export default function index() {
                         />
                     </div>
                     {/* End Portfolio Item */}
+                    {/* New Portfolio Item */}
+                    <div className="col-lg-4 col-md-6 col-sm-12 pb-4">
+                        <Framework
+                            image="./images/portfolio/fitness-tracker.jpg"
+                            title="My Fitness Tracker"
+                            text="A fitness tracker to track your workouts for both cardio and resistance exercise."
+                            tools="React.js, React Bootstrap, MongoDB, Heroku, Express, Node.js"
+                            github="https://github.com/CGMcBride/MyFitnessTracker"
+                            website="https://conners-fitness-tracker.herokuapp.com/?id=5f4db98f74d91200175b6c5b"
+                        />
+                    </div>
+                    {/* End Portfolio Item */}
+                    {/* New Portfolio Item */}
+                    <div className="col-lg-4 col-md-6 col-sm-12 pb-4">
+                        <Framework
+                            image="./images/portfolio/Staff-Directory.png"
+                            title="Employee Directory"
+                            text="This is employee directory you can filter by first and last name to search for specific people."
+                            tools="React.js, CSS, Code Climate, CirlceCi, Heroku, Express, Node.js"
+                            github="https://github.com/CGMcBride/EmployeeDirectoryReact"
+                            website="https://employeereact-conner.herokuapp.com/"
+                        />
+                    </div>
+                    {/* End Portfolio Item */}
 
                 </div>
 
