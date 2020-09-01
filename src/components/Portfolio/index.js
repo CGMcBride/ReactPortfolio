@@ -118,6 +118,7 @@ export default function index() {
                         />
                     </div>
                     {/* End Portfolio Item */}
+
                     {/* New Portfolio Item */}
                     <div className="col-lg-4 col-md-6 col-sm-12 pb-4">
                         <Framework
@@ -130,6 +131,7 @@ export default function index() {
                         />
                     </div>
                     {/* End Portfolio Item */}
+
                     {/* New Portfolio Item */}
                     <div className="col-lg-4 col-md-6 col-sm-12 pb-4">
                         <Framework
