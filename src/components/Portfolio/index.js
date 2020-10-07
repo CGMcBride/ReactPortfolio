@@ -144,6 +144,30 @@ export default function index() {
                         />
                     </div>
                     {/* End Portfolio Item */}
+                    {/* New Portfolio Item */}
+                    <div className="col-lg-4 col-md-6 col-sm-12 pb-4">
+                        <Framework
+                            image="./images/portfolio/GoogleBookSearch.jpg"
+                            title="Google Book Search"
+                            text="This app will let you search for a book of your choice from the google book store."
+                            tools="React.js, CSS, Code Climate, CirlceCi, Heroku, Mongo, Node.js"
+                            github="https://github.com/CGMcBride/googlebooksearch"
+                            website="https://booksearchreactgoogle.herokuapp.com/"
+                        />
+                    </div>
+                    {/* End Portfolio Item */}
+                    {/* New Portfolio Item */}
+                    <div className="col-lg-4 col-md-6 col-sm-12 pb-4">
+                        <Framework
+                            image="./images/portfolio/HikingTrails.jpg"
+                            title="TRAILme"
+                            text="This hiking app will allow you to search trails in your area and track your fitbit information."
+                            tools="React.js, React Bootstrap, Heroku, Mongo, Mongoose, Node.js"
+                            github="https://github.com/TRAILme-APP/TRAILme"
+                            website="https://trailme.herokuapp.com/"
+                        />
+                    </div>
+                    {/* End Portfolio Item */}
 
                 </div>
 
